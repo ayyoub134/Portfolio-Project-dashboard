@@ -1,0 +1,332 @@
+*{
+      padding: 0;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+body{     background-color: rgb(36, 44, 63);
+             font-family: "PT Serif", serif;
+            animation: example 20s infinite; }
+
+.Dashboard{width: 100%;display: flex;height: 100vh;}
+.left-bare{width:20%;background-color: rgb(36, 44, 63);}
+
+
+
+.logo-bare {
+                   overflow: hidden;
+                    padding:  0 5%;}
+.logo-bare{
+                  font-weight: bold;
+                  letter-spacing: 5px;}
+.code-logo {
+                   float: left;
+                   padding: 14px 20px;
+                   color: #EEB30D;
+                   text-decoration: none;
+                   font-size: 30px;
+                   margin-top: 15px}
+ .code-logo strong{
+                color: #767675;}
+.code-logo img {
+                   height: 40px;
+                   width: auto;
+                   vertical-align: middle;
+                   margin-right: 10px;}
+.Dolar{margin: auto;}
+.Dolar h1{width: 220px;
+             height: 130px;
+             background-color: #EEB30D;
+             margin: auto;
+             margin-top: 100px;
+             text-align: center;
+             padding: 20px;
+             border-radius: 15px;
+             font-weight: bolder;
+             color: white;
+          }
+
+             .five-dev{width: 80%;
+              height: fit-content;
+              color: #8A8A8A;
+              text-align: center;
+              flex-direction: column;
+              align-items: center;
+              margin: auto;}
+ /* Center the contents of .five-dev */
+.five-dev {
+  padding-top: 30px;
+  text-align: center; /* Center text and inline elements */
+  margin: auto;
+}
+
+/* Adjust the styling of .one */
+.one {
+  display: flex; /* Use flexbox to center the content inside */
+  justify-content: center; /* Center the content horizontally */
+  padding: 3px;
+  width: 90%; /* Make sure it takes full width */
+  margin: auto;
+}
+
+/* Style for <a> and <p> inside .one */
+.one a {
+  display: block; /* Make <a> a block element to apply margin */
+  margin: auto;
+}
+
+.one p a {
+  border-radius: 15px;
+  width: 220px;
+  padding: 15px;
+  font-weight: bold;
+  color: #8A8A8A;
+  margin: 5px auto; /* Center horizontally */
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center; /* Center text inside <p> */
+}
+
+ .Das  p a{width:250px;}
+ .one  p a:hover{background-color: #8A8A8A;
+              color:#252525; }
+ .Das  p a{background-color: #EEB30D;
+              color: white;}
+ .Das  p a:hover{background-color: #EEB30D;
+              color: white;}
+ 
+ 
+ .one  p a i{padding-right: 9px;}
+ .line   { content: '';
+           text-align: center;
+           margin: auto;
+           display: block;
+           width: 90%;
+           height: 0px;
+           background-color: rgb(36, 44, 63);}
+ 
+           /*-----------------------*/
+    
+            /*--------------------------*/
+.right-bare{width: 80%;background-color: rgb(36, 44, 63);display: block;}
+
+
+.navbar {
+  background-color: rgb(36, 44, 63);
+       overflow: hidden;
+        padding:  0 4%;
+        padding-bottom: 10px;
+     /*border-bottom: 2px black solid;*/
+     width: 100%;
+   }
+   .navbar a{
+      font-weight: bold;
+      letter-spacing: 2px;
+  
+   }
+   .navbar-brand  {
+       float: left;
+       padding: 14px 0px;
+       color: rgb(255, 255, 255);
+       font-size: 30px;
+       margin-top: 50px;
+       font-weight: bold;
+       font-style: italic;}
+ .navbar .navbar-contact {
+      float: right;
+      padding: 8px;
+      display: flex;}
+
+  .navbar-contact {color: white;
+    background-color: #252525;
+    border-radius: 8px;
+    margin: 14px;}
+
+ .profil{padding: 10px}
+.name h3{margin: 8px; letter-spacing: 0.5px;}
+.name p{margin: 8px;letter-spacing: 1.2px;padding-top: 5px;}
+
+/*-------------------------------------------------------------------------------------------------- */
+                         /*-----------------------contante body ------------------- */
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  min-height: 50px;
+  max-width: 250px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #818181;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color:#818181;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #5e5dcd;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: #3898EC;
+  outline: none;
+}
+
+
+/* */
+
+.users-overview {
+  margin-top: 30px;
+}
+
+.users-overview h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.users-table th, .users-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.users-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.users-table tbody tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+
+
+/*   //////////////////  */
+
+.dev-plus {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px; /* Add some space around */
+}
+
+.dev-plus h2 {
+  font-size: 24px;
+  color: #333; /* Darker text color for emphasis */
+  margin-bottom: 15px;
+}
+
+.dev-plus h3 {
+  font-size: 20px;
+  color: #555; /* Slightly lighter text color */
+  margin-bottom: 10px;
+}
+
+
+
+/*     */
+.dev-plus ul li {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  display: flex; /* Flexbox for alignment */
+
+}
+
+.dev-plus ul li strong {
+  color: #555; /* Darker color for labels */
+  display: block;
+  margin-bottom: 5px;
+  margin: 10px;
+}
+/*  */
+
+.edit-btn, .delete-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+
+
+}
+
+.ul-li-a {
+  margin-left: auto; /* Pushes the buttons to the right */}
+.edit-btn {
+  background-color: #4CAF50; /* Green */  
+}
+
+.delete-btn {
+  background-color: #f44336; /* Red */
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  opacity: 0.8;
+}
+/*input chrche */
+/* CSS for the search input and button */
+.cherche {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.cherche form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cherche input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.cherche button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cherche button:hover {
+  background-color: #45a049;
+}

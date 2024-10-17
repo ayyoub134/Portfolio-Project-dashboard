@@ -1,0 +1,345 @@
+/* Styles for phones (up to 600px) */
+
+
+@media only screen and (max-width: 800px) {
+
+
+
+      
+      .Dashboard{width: 100%;display: block;height: 100vh;}
+
+      .left-bare{width:100%;display: block;}
+      .right-bare{width: 100%;display: block;}
+      
+      
+      .logo-bare {
+                         overflow: hidden;
+                          padding:  0 0%;}
+      .logo-bare{
+                        font-weight: bold;
+                        letter-spacing: 4px;}
+      .code-logo {
+                         float: left;
+                         padding: 14px 10px;
+                         color: #EEB30D;
+                         text-decoration: none;
+                         font-size: 30px;
+                         margin-top: 15px}
+       .code-logo strong{
+                      color: #767675;}
+      .code-logo img {
+                         height: 40px;
+                         width: auto;
+                         vertical-align: middle;
+                         margin-right: 10px;}
+      .Dolar{margin-right: 0px;}
+      .Dolar h1{width: 150px;
+                   height: 100px;
+                   background-color: #EEB30D;
+                   margin: auto;
+             ;
+                   text-align: center;
+                   padding: 10px;
+                   border-radius: 15px;
+                   font-weight: bolder;
+                   color: white;
+                   font-size: 25px;
+                  margin-top: -70px;
+                  margin-right: 40px;
+                }
+      
+                   .five-dev{width: 80%;
+                    height: fit-content;
+                    color: #8A8A8A;
+                    text-align: center;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: auto;
+                 }
+       /* Center the contents of .five-dev */
+      .five-dev {
+        padding-top: 30px;
+        text-align: center; /* Center text and inline elements */
+        margin: auto; display: flex;
+       
+      }
+      
+      /* Adjust the styling of .one */
+      .one {
+        display: flex; /* Use flexbox to center the content inside */
+        justify-content: center; /* Center the content horizontally */
+        padding: 3px;
+        width: 90%; /* Make sure it takes full width */
+        margin: auto;
+      }
+      
+      /* Style for <a> and <p> inside .one */
+      .one a {
+        display: block; /* Make <a> a block element to apply margin */
+        margin: auto;
+      }
+      
+      .one p a {
+        border-radius: 15px;
+        width: 220px;
+        padding: 15px;
+        font-weight: bold;
+        color: #8A8A8A;
+        margin: 5px auto; /* Center horizontally */
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center; /* Center text inside <p> */
+      }
+      
+       .Das  p a{width:250px;}
+       .one  p a:hover{background-color: #8A8A8A;
+                    color:#252525; }
+       .Das  p a{background-color: #EEB30D;
+                    color: white;}
+       .Das  p a:hover{background-color: #EEB30D;
+                    color: white;}
+       
+       
+       .one  p a i{padding-right: 9px;}
+       .line   { content: '';
+                 text-align: center;
+                 margin: auto;
+                 display: block;
+                 width: 90%;
+                 height: 0px;
+                 background-color: rgb(36, 44, 63);}
+       
+                 /*-----------------------*/
+          
+                  /*--------------------------*/
+     
+
+                  
+.navbar {
+      background-color: rgb(36, 44, 63);
+           overflow: hidden;
+            padding:  0 0%;
+            padding-bottom: 10px;
+         /*border-bottom: 2px black solid;*/
+         width: 100%;
+       }
+
+    
+     .profil{padding: 10px}
+    .name h3{margin: 8px; letter-spacing: 0.5px;}
+    .name p{margin: 8px;letter-spacing: 1.2px;padding-top: 5px;}
+    
+    /*-------------------------------------------------------------------------------------------------- */
+                             /*-----------------------contante body ------------------- */
+    
+    
+.dev-plus {
+      padding: 20px;
+      background-color: #f8f9fa; /* Light background color */
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      margin: 20px; /* Add some space around */
+    }
+    
+    .dev-plus h2 {
+      font-size: 24px;
+      color: #333; /* Darker text color for emphasis */
+      margin-bottom: 15px;
+    }
+    
+    .dev-plus h3 {
+      font-size: 20px;
+      color: #555; /* Slightly lighter text color */
+      margin-bottom: 10px;
+    }
+    
+.navbar {
+      background-color: rgb(36, 44, 63);
+           overflow: hidden;
+            padding:  0 4%;
+            padding-bottom: 10px;
+         /*border-bottom: 2px black solid;*/
+         width: 100%;
+       }
+       .navbar a{
+          font-weight: bold;
+          letter-spacing: 2px;
+      
+       }
+    .navbar-brand  {
+      float: left;
+      padding: 12px 0px;
+      color: rgb(255, 255, 255);
+      font-size: 13px;
+      margin-top: 50px;
+      font-weight: bold;
+      font-style: italic;}
+.navbar .navbar-contact {
+
+     
+     float: right;
+     padding: 8px;
+     display: flex;}
+
+ .navbar-contact {color: white;
+   background-color: #252525;
+   border-radius: 8px;
+   margin: 14px;}
+    
+    /*     */
+    .dev-plus ul li {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      font-size: 14px;
+      color: #333;
+      line-height: 1.6;
+      display: block; /* Flexbox for alignment */
+    
+    }
+    
+    .dev-plus ul li strong {
+      color: #555; /* Darker color for labels */
+      display: block;
+      margin-bottom: 5px;
+      margin: 10px;
+    }
+    .dev-plus-Insight {
+      padding: 20px;
+      margin: 6px;
+    
+  }
+  .dev-plus-Account{
+      padding: 20px;
+      margin: 6px;
+  
+  }
+  .dev-plus-switch-account{
+      padding: 20px;      margin: 6px;
+   
+  }
+  .dev-plus-Settings {
+      padding: 20px;
+      margin: 6px;
+  }
+  .dev-plus-add-account {
+      padding: 20px;
+      margin: 6px;
+  }
+
+    /*  */
+    .sidebar {
+      width: 100%; /* Full width for mobile */
+      transform: translateX(-100%); /* Hide off-screen */
+      z-index: 1000; /* Ensure sidebar is above other content */
+  }
+
+  .sidebar.active {
+      transform: translateX(0); /* Show sidebar when active */
+  }
+  .sidebar {
+        width: 280px; /* Default sidebar width */
+        background-color:rgb(36, 44, 63); /* Sidebar background color */
+        padding: 15px;
+        position: fixed; /* Fixed sidebar */
+        height: 100%;
+        overflow-y: auto; /* Scroll if content overflows */
+        transition: transform 0.3s ease; /* Animation for opening/closing */
+        border: 2px solid white;
+        border-top-right-radius: 10px;
+      }
+    
+    /* Styles for each menu item */
+    .five-dev .one {
+        margin: 10px 0; /* Spacing between menu items */
+    }
+    
+    .five-dev a {
+        text-decoration: none;
+        color: #333; /* Default text color */
+        font-size: 16px; /* Font size for menu items */
+        display: flex; /* Flex layout for icon and text */
+        align-items: center; /* Center icons vertically */
+    }
+    
+    .five-dev a i {
+        margin-right: 10px; /* Space between icon and text */
+    }
+
+    .sidebar.active {
+      left: 0; /* Show sidebar when active */
+  }
+  
+  .toggle-button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      position: fixed; /* Keep button in a fixed position */
+      top: 77px; /* Adjust top position */
+      left: 20px; /* Adjust left position */
+      transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+      background-color: #2980b9; /* Darker shade on hover */
+  }
+
+/*editt pageee*/
+.edit-form {
+ width: 80%;
+  margin-top: 30px; }
+
+  
+    
+}
+    /* */
+    
+    @media only screen and (min-width: 800px) and (max-width: 1150px) {
+
+
+            
+      
+
+      .left-bare{width:30%;display: block;}
+      .right-bare{width: 70%;display: block;}
+     
+      .dev-plus ul li {
+         
+            display: block; /* Flexbox for alignment */
+          
+          }
+    }
+  
+
+  
+  /* Tablet styles */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      .sidebar {
+          width: 70%; /* Width for tablets */
+      }
+      .five-dev{margin: auto;text-align: center;margin-left: 20px;}
+  }
+  
+  /* Styles for larger screens */
+  @media only screen and (min-width: 1025px) {
+      .sidebar {
+          width: 250px; /* Default width for desktops */
+      }
+  }
+  
+  /* Style for the line separator */
+
+  @media (min-width: 801px) {
+      .toggle-button {
+          display: none; /* Hide the button */
+      }}
+
+      
+
+      
